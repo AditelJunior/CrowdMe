@@ -1,0 +1,35 @@
+.about_our_working_container {
+    text-align: center;
+    padding: 100px 0;
+}
+.about_our_working_capt {
+    width: 60%;
+    margin: 40px auto;
+    color: #515151;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.about_our_working_text {
+    color: #515151;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .about_our_working_capt {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .btn_link_find {
+        padding: 10px 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .about_our_working_capt {
+        font-size: 1.2rem;
+    }
+    .about_our_working_text {
+        font-size: 0.9rem;
+    }
+}

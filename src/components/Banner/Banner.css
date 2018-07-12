@@ -1,0 +1,163 @@
+.top_line {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+.logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.logo_crowdme {
+    margin-left: 10px;
+    color: #595959;
+}
+.nav_list {
+    display: inline-block;
+}
+.nav_item {
+    display: inline-block;
+}
+.nav_link {
+    padding: 10px 15px;
+    color: #989898;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    border-bottom: 2px solid transparent;
+}
+.nav_link:hover {
+    border-bottom: 2px solid #99C50A;
+    transition: linear 0.2s;
+}
+.btn_log_in_wrap {
+    display: inline-block;
+    border-radius: 10px;
+}
+.btn_link_log_in_wrap {
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #BCDA5C;
+}
+.banner_block {
+    position: relative;
+    background: url("../../imagies/banner_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+}
+.desc_capt {
+    color: #FFFFFF;
+    display: block;
+    font-size: 3rem;
+    font-weight: normal;
+}
+.desc_capt_small {
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+}
+.btn_become_member {
+    background: #99C50A;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+.hidden_navigation {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .nav_link {
+    padding: 5px 8px;
+}
+    .logo {
+    font-size: 1.2rem;
+}
+    .logo_img {
+    width: 20px;
+}
+    .btn_log_in_wrap {
+    margin-left: 5px;
+}
+    .btn_link_log_in_wrap {
+    padding: 7px 15px;
+    font-size: 0.9rem;
+}
+}
+@media screen and (max-width: 992px) {
+    .desc_capt {
+    font-size: 2rem;
+}
+    .btn_become_member {
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+}
+@media screen and (max-width: 700px) {
+    .container .nav_list {
+        display: none;
+}
+    .logo_crowdme {
+        margin-right: 20px;
+}
+    .hidden_navigation {
+        display: inline-block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+}
+    .hidden_navigation .nav_list {
+        text-align: right;
+        display: none;
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+    .hidden_navigation:hover .nav_list {
+        display: block;
+}
+    .mini_menu {
+        display: inline-block;
+    }
+    .hamburger_icon {
+        width: 50px;
+    }
+    .hidden_nav_item {
+        display: block;
+    }
+    .hidden_nav_link {
+        display: inline-block;
+        color: white;
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .btn_become_member {
+        font-size: 1rem;
+    }
+    .desc_capt {
+        font-size: 1.5rem;
+    }
+    .desc_capt_small {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .logo {
+        position: relative;
+        bottom: 10px;
+        right: 80px;
+    }
+}

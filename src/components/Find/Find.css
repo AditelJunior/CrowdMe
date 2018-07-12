@@ -1,0 +1,76 @@
+.find_block {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #E2F8FF 50%, #F5F9EB 50%);
+}
+.find_sides {
+    display: flex;
+    justify-content: space-between;
+}
+.find_left_side {
+    padding: 50px 50px 50px 0;
+    background: #E2F8FF;
+}
+.find_right_side {
+    padding: 50px 0 50px 50px;
+    background: #F5F9EB;
+}
+.find_info {
+    margin-left: 50px;
+    color: #595959;
+}
+.btn_link_become {
+    background: #26A6D1;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn_link_submit_project {
+    background: #ADD136;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.btn_find_item {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .btn_link_find {
+        padding: 10px 15px;
+    }
+    .find_image {
+        width: 100px;
+    }
+    .find_left_side {
+        padding: 25px 25px 25px 0;
+        background: #E2F8FF;
+    }
+    .find_right_side {
+        padding: 25px 0 25px 25px;
+        background: #F5F9EB;
+    }
+}
+@media screen and (max-width: 820px) {
+    .find_block {
+        display: block;
+        background: linear-gradient(to bottom, #E2F8FF 50%, #F5F9EB 50%);
+    }
+    .btn_link_find {
+        font-size: 0.8rem;
+    }
+    .find_sides {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .find_sides {
+        display: block;
+        text-align: center;
+    }
+    .find_info {
+        margin: 0;
+    }
+}
